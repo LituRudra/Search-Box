@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("BeeAndFlower.JPG");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 380px;
+}
+.icon {
+    height: 25ps;
+    width: 25px;
+    margin-top: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.input-field {
+    width: 345px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+}
+.buttn{
+    border: none;
+    outline: none;
+}
